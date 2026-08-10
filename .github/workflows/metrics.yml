@@ -1,0 +1,37 @@
+name: Metrics
+on:
+  # 每天 UTC 00:00 (台灣時間 08:00) 自動更新一次
+  schedule: [{cron: "0 0 * * *"}]
+  # 支援在 GitHub 控制台手動按鈕觸發
+  workflow_dispatch:
+  # 當修改並推送程式碼至主分支時觸發 (可選)
+  push: {branches: ["master", "main"]}
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      # 模組 1：3D 一整年貢獻日曆
+      - name: Full-year calendar
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.isocalendar.fullyear.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+
+      # 模組 2：Steam 最近遊玩遊戲
+      - name: Recently played games
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.steam.svg
+          token: NOT_NEEDED
+          base: ""
+          plugin_steam_token: ${{ secrets.STEAM_TOKEN }}
+          plugin_steam: yes
+          plugin_steam_user: "76561199186134238"
+          plugin_steam_sections: recently-played
+          plugin_steam_achievements_limit: 0
