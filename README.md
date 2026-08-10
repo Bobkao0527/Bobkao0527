@@ -39,17 +39,12 @@
     </td>
     <!-- 👉 右半部：GitHub Metrics 圖表展演 -->
     <td width="52%">
-      <h3 align="center">🎛️ GitHub 3D Commit Calendar</h3>
       <p align="center">
         <img src="metrics.plugin.isocalendar.fullyear.svg" alt="3D Calendar" />
       </p>
-      <hr />
-      <h3 align="center">💻 Deep Language Analysis</h3>
       <p align="center">
         <img src="metrics.plugin.languages.indepth.svg" alt="Language Stats" />
       </p>
-      <hr />
-      <h3 align="center">🎮 Recently Played Games (Steam)</h3>
       <p align="center">
         <img src="metrics.plugin.steam.svg" alt="Steam Recently Played" />
       </p>
