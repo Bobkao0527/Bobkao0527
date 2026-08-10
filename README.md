@@ -51,3 +51,4 @@
     </td>
   </tr>
 </table>
+<sub>Generated with [lowlighter/metrics](https://github.com/lowlighter/metrics)</sub>
