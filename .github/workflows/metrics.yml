@@ -35,3 +35,16 @@ jobs:
           plugin_steam_user: "76561199186134238"
           plugin_steam_sections: recently-played
           plugin_steam_achievements_limit: 0
+
+      # 模組 3：程式語言深度分析（包含 HTML / CSS 等所有語言）
+      - name: Indepth Language Analysis
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.languages.indepth.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_languages: yes
+          plugin_languages_indepth: yes
+          plugin_languages_details: lines, bytes-size
+          plugin_languages_limit: 8
+          plugin_languages_analysis_timeout: 15
