@@ -16,15 +16,15 @@
             </section>
             <section class="column">
                 <h3 class="field">Most used languages</h3>
-                <small>estimation from 3.85mb of code in 362 edited files across 321 commits</small>
+                <small>estimation from 3.67mb of code in 302 edited files across 289 commits</small>
                 <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="460" height="8">
                     <mask id="languages-bar">
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="270.04503100441025" height="8" fill="#e34c26"/>
-                    <rect mask="url(#languages-bar)" x="270.04503100441025" y="0" width="167.97297108097254" height="8" fill="#f1e05a"/>
-                    <rect mask="url(#languages-bar)" x="438.01800208538276" y="0" width="21.981997914617207" height="8" fill="#663399"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="272.814797899842" height="8" fill="#e34c26"/>
+                    <rect mask="url(#languages-bar)" x="272.814797899842" y="0" width="163.44649828821105" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="436.2612961880531" y="0" width="23.73870381194691" height="8" fill="#663399"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -36,8 +36,8 @@
                                 HTML
                             </div>
                             <small>
-                                <div>17.3k lines</div>
-                                <div>796 kB</div>
+                                <div>15.2k lines</div>
+                                <div>696 kB</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -48,8 +48,8 @@
                                 CSS
                             </div>
                             <small>
-                                <div>2.10k lines</div>
-                                <div>64.8 kB</div>
+                                <div>1.93k lines</div>
+                                <div>60.5 kB</div>
                             </small>
                         </div>
                     </section>
@@ -62,8 +62,8 @@
                                 JavaScript
                             </div>
                             <small>
-                                <div>12k lines</div>
-                                <div>495 kB</div>
+                                <div>10k lines</div>
+                                <div>417 kB</div>
                             </small>
                         </div>
                     </section>
